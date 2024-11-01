@@ -1,0 +1,217 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>ST Twitter WP - Documentation</title>
+	
+	<meta name="description" content="This documentation file helps you to understand whole plugin concept and how it works. You should read all sections of the file before start your work.">
+	<meta name="author" content="beautiful-templates">
+	<meta name="copyright" content="beautiful-templates">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-09-22T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='1000',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-st-gallery-wp">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"> </a>
+		<ul id="documenter_nav">
+            <li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#install_update" title="Install & Update">Install &#38; Update</a></li>
+			<li><a href="#map_setting" title="Config Plugin">Map Setting</a></li>
+			<li><a href="#questions_answers" title="Questions & Answers">Questions &#38; Answers</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright beautiful-templates 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>ST Map WP</h1>
+	<h2>Documentation</h2>
+	<div id="documenter_buttons">
+		<a href="http://beautiful-templates.com/" class="btn btn-primary btn-large">Home</a> <a href="http://beautiful-templates.com/amember/" class="btn btn-large">Submit Ticket</a> <a href="http://beautiful-templates.com/evo/forum/" class="btn btn-large">Forum</a> 
+	</div>
+	<hr>
+	<ul>
+	<li>created: 10/01/2014</li>
+	<li>by: <a href="http://beautiful-templates.com/" target="_blank">beautiful-templates</a></li>
+	<li>email: <a href="mailto:&#98;&#101;&#97;&#117;&#116;&#105;&#102;&#117;&#108;&#116;&#101;&#109;&#112;&#108;&#97;&#116;&#101;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#98;&#101;&#97;&#117;&#116;&#105;&#102;&#117;&#108;&#116;&#101;&#109;&#112;&#108;&#97;&#116;&#101;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>This documentation file helps you to understand whole plugin concept and how it works. You should read all sections of the file before start your work. After that you still can't find the solution yet, please leave a ticket on Support system then support agents help your issue.</p>
+	</section>
+	
+	<section id="install_update">
+	<div class="page-header"><h3>Install &#38; Update</h3><hr class="notop"></div>
+<h3>
+	1: Installing</h3>
+<p>
+	If you do not have <strong>ST Google Map </strong>on your computer, you can <a href="http://#" target="_blank"><strong>download it here &darr; </strong></a></p>
+<ul>
+	<li>
+		<strong>Step 1:</strong> Upload the entire <strong>st-map-wp</strong> folder to the <strong>/wp-content/plugins/</strong> directory.</li>
+	<li>
+		<strong>Step 2:</strong> Activate the plugin through the <strong>&#39;Plugins&#39;</strong> menu in WordPress.</li>
+</ul>
+<p>
+	You will find <strong>&#39;ST Google Map&#39;</strong> setting menu in your WordPress admin panel.</p>
+<h3>
+	2: Update</h3>
+<p>
+	If you have <strong>ST Google Map</strong> installed, check for updates and <a href="http://#" target="_blank"><strong>download latest version &darr; </strong></a></p>
+<ul>
+	<li>
+		<strong>Step 1:</strong> Reupload the entire <strong>st-google-map </strong>folder to the<strong> /wp-content/plugins/</strong> directory.<em> (override folder st-google-map) </em></li>
+	<li>
+		<strong>Step 2: </strong>Activate the plugin through the<strong> &#39;Plugins&#39; </strong>menu in WordPress.</li>
+</ul>
+<p>
+	You will find<strong> &#39;ST Google Map&#39; </strong>Setting menu in your WordPress admin panel.</p>
+<h3>
+	3: User interface</h3>
+<p>
+	This is the user interface after successfully installing the plugin.</p>
+<p>
+	<img alt="" src="assets/images/st_mapwp_01.png" style="width: 100%;"></p>
+</section>
+<section id="map_setting">
+	<div class="page-header"><h3>Map Setting</h3><hr class="notop"></div>
+<p>
+	In this section, we will guide you to configure the plugin.</p>
+<h4>
+	I: Create location</h4>	
+<p>select your location on the map (Use our auto suggestion enabled location box to add your location). You can create as many maps you want to add:</p>
+<ol>
+	<li>
+		<strong>Step 1:</strong> Use our auto suggestion enabled location box to find your location then click to that location to get Lat Lng
+        <p>
+	       <img alt="" src="assets/images/st_mapwp_02.png" style="width: 100%;"></p>
+    </li>
+	<li>
+		<strong>Step 2: </strong> Click to "save" button to save up your location 
+        <p>
+	       <img alt="" src="assets/images/st_mapwp_03.png" style="width: 100%;"></p>
+  </li>
+	<li>
+		<strong>Step 3: add information for your location</strong>
+        <p>
+	       <img alt="" src="assets/images/st_mapwp_04.png" style="width: 100%;"></p>
+  </li>
+</ol>
+<h4>II: Manage Locations</h4>
+<ol>
+    <li><strong>Edit :</strong> click the pen icon to edit the location information that
+        <p>
+	       <img alt="" src="assets/images/edit.png" style="width: 100%;"></p>
+    </li>
+    <li><strong>Delete :</strong>click the trash icon to delete the location information that
+        <p>
+	       <img alt="" src="assets/images/delete.png" style="width: 100%;"></p>
+    </li>
+</ol>
+<h4>III: Custom Css</h4>
+<p>This allows the administrator to modify the Popups style. While the Popups HTML cannot be modified</p>
+<p>
+	       <img alt="" src="assets/images/customcss.png" style="width: 100%;"></p>
+</section>
+<section id="questions_answers">
+	<div class="page-header"><h3>Questions &#38; Answers</h3><hr class="notop"></div>
+<h3>
+	Questions 1: How to insert ST Map WP to post, page?</h3>
+<ul>
+	<li>
+		<strong>Step 1: </strong>In post/page editor you click to button</li>
+</ul>
+<p>
+	<img alt="" src="assets/images/st_mapwp_05.png" style="width: 100%;"></p>
+<ul>
+	<li>
+		<strong>Step 2: </strong>Settings and click to <b>"OK"</b></li>
+</ul>
+<h3>
+	Questions 2: How to insert ST Map WP to widget?</h3>
+<ul>
+	<li>
+		<strong>Step 1: </strong>Select "ST Google Map" Widget</li>
+</ul>
+<p>
+	<img alt="" src="assets/images/widget.png" style="width: 100%;"></p>
+<ul>
+	<li>
+		<strong>Step 2: </strong>Settings and click to <b>"Save"</b></li>
+</ul>
+
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<div class="alert alert-info">
+	If you have question beyond scope of this documentation, you can ask that with this form and your message will send us via ticket system or forum.</div>
+<ul>
+	<li>
+		Submit ticket: <a href="http://beautiful-templates.com/amember" target="_blank">http://beautiful-templates.com/amember</a></li>
+	<li>
+		Forum:&nbsp;<a href="http://beautiful-templates.com/evo/forum" target="_blank">http://beautiful-templates.com/evo/forum</a></li>
+</ul>
+<p>
+	&nbsp;</p>
+</section>
+
+	</div>
+</body>
+</html>

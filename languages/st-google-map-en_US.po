@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ST Google Map v1\n"
+"POT-Creation-Date: 2014-10-17 17:58+0700\n"
+"PO-Revision-Date: 2014-10-17 18:01+0700\n"
+"Last-Translator: \n"
+"Language-Team: Beautiful-templates <rizwankhan8079@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../st-google-map.php:81
+msgid "ST Google Map"
+msgstr ""
+
+#: ../st-google-map.php:83
+msgid "Global Setting"
+msgstr "Global Setting"
+
+#: ../st-google-map.php:86 ../st-google-map.php:538
+msgid "Map Setting"
+msgstr ""
+
+#: ../st-google-map.php:87 ../st-google-map.php:155
+msgid "Custom Css"
+msgstr ""
+
+#: ../st-google-map.php:93
+msgid "Lattitude"
+msgstr ""
+
+#: ../st-google-map.php:97
+msgid "Longitude"
+msgstr ""
+
+#: ../st-google-map.php:101 ../st-google-map.php:117 ../st-google-map.php:542
+msgid "Lat Lng"
+msgstr ""
+
+#: ../st-google-map.php:105
+msgid "Location"
+msgstr ""
+
+#: ../st-google-map.php:115
+msgid "ID"
+msgstr ""
+
+#: ../st-google-map.php:116 ../st-google-map.php:546
+msgid "Name"
+msgstr ""
+
+#: ../st-google-map.php:118
+msgid "Actions"
+msgstr ""
+
+#: ../st-google-map.php:131
+msgid "Enter a location"
+msgstr ""
+
+#: ../st-google-map.php:134
+msgid "All"
+msgstr ""
+
+#: ../st-google-map.php:137
+msgid "Establishments"
+msgstr ""
+
+#: ../st-google-map.php:140
+msgid "Addresses"
+msgstr ""
+
+#: ../st-google-map.php:143
+msgid "Geocodes"
+msgstr ""
+
+#: ../st-google-map.php:159
+msgid "* Change css style the within maps the popup with the custom-popup."
+msgstr ""
+
+#: ../st-google-map.php:252
+msgid "You do not have sufficient permissions to edit plugin for this site."
+msgstr ""
+
+#: ../st-google-map.php:485
+msgid "Abouts"
+msgstr ""
+
+#: ../st-google-map.php:496
+msgid "Home"
+msgstr ""
+
+#: ../st-google-map.php:499
+msgid "Submit Ticket"
+msgstr ""
+
+#: ../st-google-map.php:502
+msgid "Forum"
+msgstr ""
+
+#: ../st-google-map.php:506
+msgid "Document"
+msgstr ""
+
+#: ../st-google-map.php:537
+msgid "Info"
+msgstr ""
+
+#: ../st-google-map.php:550
+msgid "Title"
+msgstr ""
+
+#: ../st-google-map.php:554
+msgid "Description"
+msgstr ""
+
+#: ../st-google-map.php:558
+msgid "UpLoad Avatar"
+msgstr ""
+
+#: ../st-google-map.php:572
+msgid "Zoom"
+msgstr ""
+
+#: ../st-google-map.php:576
+msgid "Max Zoom"
+msgstr ""
+
+#: ../st-google-map.php:580
+msgid "Turn Off Scroll Wheel Zooming"
+msgstr ""
+
+#: ../st-google-map.php:584
+msgid "Yes"
+msgstr ""
+
+#: ../st-google-map.php:585
+msgid "No"
+msgstr ""
+
+#: ../widget.php:30
+msgid "Title:"
+msgstr ""
+
+#: ../widget.php:34
+msgid "Choose category :"
+msgstr ""
+
+#: ../widget.php:41
+msgid "Set FullWidth"
+msgstr ""
+
+#: ../widget.php:44
+msgid "Width :"
+msgstr ""
+
+#: ../widget.php:48
+msgid "Height :"
+msgstr ""
